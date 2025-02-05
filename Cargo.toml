@@ -1,0 +1,25 @@
+[package]
+name = "my_memecoin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-program = "1.18.26"
+spl-token = { version = "4.0.0", features = ["no-entrypoint"] }
+spl-associated-token-account = "2.1.0"
+serde = { version = "1.0", features = ["derive"] }
+borsh = "0.10"
+borsh-derive = "0.10"
+thiserror = "1.0"
+lazy_static = "1.4.0"
+solana-security-txt = "1.1.1"
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+overflow-checks = false
+lto = "fat"
+opt-level = "z"
+
+
