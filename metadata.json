@@ -1,0 +1,17 @@
+{
+  "name": "SADWORLD",
+  "symbol": "SAD",
+  "description": "everything sucks",
+  "image": "https://gateway.pinata.cloud/ipfs/bafkreiat2l5drzekigakedwasc6zegwuitvi5r3zzprkgkk6ubg74ohzti",
+  "external_url": "https://x.com/sadworldtoken",
+  "attributes": [
+    {
+      "trait_type": "Purpose",
+      "value": "Utility"
+    },
+    {
+      "trait_type": "Category",
+      "value": "Cryptocurrency"
+    }
+  ]
+}
