@@ -1,0 +1,11 @@
+[
+  {
+    "chainId": 101,
+    "address": "HTTQhvUpLeVa4N3SxjTe8e6G4MQsyiCJtpV1CnM6v6fe",
+    "symbol": "SAD",
+    "name": "SADWORLD",
+    "decimals": 9,
+    "logoURI": "https://app.pinata.cloud/ipfs/bafkreiat2l5drzekigakedwasc6zegwuitvi5r3zzprkgkk6ubg74ohzti",
+    "tags": ["utility", "memecoin"]
+  }
+]
