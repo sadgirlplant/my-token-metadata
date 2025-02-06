@@ -15,6 +15,7 @@ lazy_static = "1.4.0"
 solana-security-txt = "1.1.1"
 
 [lib]
+name = "my_memecoin"
 crate-type = ["cdylib"]
 path = "src/lib.rs"
 
